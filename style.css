@@ -491,7 +491,7 @@ input[type="radio"] {
 
 .nav div {
   height: 4px;
-  background-color: white;
+  background-color: black;
   margin: 5px 0;
   border-radius: 25px;
   transition: 0.3s;
@@ -564,7 +564,7 @@ input[type="radio"] {
 
 .dropdown-container {
   display: none;
-  background-color: white;
+  
   padding-left: 8px;
   width: 20%;
   border-style: none;
