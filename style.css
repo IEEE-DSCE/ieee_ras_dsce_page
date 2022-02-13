@@ -476,41 +476,39 @@
 }
 
 .icons a{
-    color: #FF676D;
+    color: #00ace6;
     
 }
 
 .fab {
-    transition: 0.3s;
+    transition: 1.0s;
 }
 
 .fab:hover{
 
-    color: purple;
+    color: #00ffcc;;
     
     transform: translateY(-10px);
 }
 .fa{
-    transition: 0.3s;
+    transition: 0.9s;
 }
 
 .fa:hover{
 
-    color: purple;
-    
+    color: #00ffcc;    
     transform: translateY(-10px);
 }
 
 .fas{
-    color: #FF676D;
+    color:#00ace6  ;
 }
 
 .fas:hover{
-    color: blue;
+    color:#00ffcc;
+
     
 }
-
-
 
 .Events
 {
@@ -519,16 +517,6 @@
     transform: translateY(-2rem);
     color: crimson;
 }
-
-
-
-
-
-
-
-
-
-
 
 .nav div {
   height: 4px;
