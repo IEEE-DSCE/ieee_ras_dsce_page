@@ -327,10 +327,12 @@
     
     
     
-    
-    
-    
-    
+    .title_contact
+    {
+      color: white;
+  font-weight: bold;
+  text-align: center;
+}
     
     .content .media-icons {
       width: 100%;
@@ -397,14 +399,6 @@
     border-color: #FF676D;
   }
   
-
-
-
-
-
-
-
-
 
 
   .slide .span{
