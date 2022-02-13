@@ -473,6 +473,7 @@
 {
     font-size: 2rem;
     transition: 0.3s;
+    color:white;
 }
 
 .icons a{
@@ -520,7 +521,7 @@
 
 .nav div {
   height: 4px;
-  background-color: black;
+  background-color: rgba(138, 130, 130, 0.575;
   margin: 5px 0;
   border-radius: 25px;
   transition: 0.3s;
@@ -561,7 +562,7 @@
 
 
 .topnav a {
-  color: black;
+  color: rgba(82, 80, 80, 0.692);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -582,7 +583,7 @@
 
 
 .topnav a:hover {
-  background-color: white;
+  
   color: black;
 }
 
