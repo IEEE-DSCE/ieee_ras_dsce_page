@@ -66,3 +66,28 @@ function side_slide(e){
     <div class="slide right">
       <span onclick="side_slide(1)" class="fas fa-angle-right"></span>
     </div>  */}
+    ////////////////////////////////
+////////////////////////////
+
+// const allSections = document.querySelectorAll('.college-about');
+
+// const revealSection = function (entries, observer) {
+//   const [entry] = entries;
+
+//   if (!entry.isIntersecting) return;
+
+//   entry.target.classList.remove('section--hidden');
+//   observer.unobserve(entry.target);
+// };
+
+// const sectionObserver = new IntersectionObserver(revealSection, {
+//   root: null,
+//   threshold: 0.15,
+// });
+
+// allSections.forEach(function (section) {
+//   sectionObserver.observe(section);
+//   section.classList.add('section--hidden');
+// });
+
+
