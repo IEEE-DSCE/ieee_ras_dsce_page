@@ -11,8 +11,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- <link rel="stylesheet" href="Mp.css">
-<link rel="stylesheet" type="text/css" href="inifity.css"> -->
 
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -38,46 +36,30 @@
   
  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i href="#" class="nav">
    
-  <div class="one"></div>
-  <div class="two"></div>
-  <div class="three"></div>
-  </i>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    </i>
   
-   </a>
+  </a>
 
    <div class="topnav">
       <div id="myLinks">
-          <button class="dropdown-btn">More
-              <i class="fas fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-              <a href="Events.html">Events</a>
-              <a href="ContactUs.html">Contact Us</a>
-              
-            </div>
-          
-
-
-
-          <a href="index.html">Home</a>
-          <a href="#about">Join IEEE</a>
-          <a href="#about">Join RAS</a>
+        <button class="dropdown-btn">More
+            <i class="fas fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="Events.html">Events</a>
+          <a href="ContactUs.html">Contact Us</a>
         </div>
-        
-   
-      
+        <a href="index.html">Home</a>
+        <a href="#about">Join IEEE</a>
+        <a href="#about">Join RAS</a>
+      </div> 
     </div>
-</div>
-
-
-
-
-
  
   <script>
-
-    
-function myFunction() {
+    function myFunction() {
       var x = document.getElementById("myLinks");
       if (x.style.display === "block") {
         x.style.display = "none";
@@ -85,22 +67,21 @@ function myFunction() {
         x.style.display = "block";
       }
     }
-
-   
     var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+    var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+
   </script>
 
 
@@ -109,8 +90,9 @@ for (i = 0; i < dropdown.length; i++) {
   <div class="Events">Comming Soon...</div>
   
   
-  <div class="SliderView" ><center>
-    <div class="slideshow-container">
+  <div class="SliderView" >
+    <center>
+      <div class="slideshow-container">
 
         <div class="mySlides fade">
           
@@ -130,8 +112,6 @@ for (i = 0; i < dropdown.length; i++) {
           
         </div>
         
-        
-        
         </div>
         <br>
         
@@ -139,10 +119,10 @@ for (i = 0; i < dropdown.length; i++) {
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
-          </div>
-        
-</center></div>
+        </div>
+    </center>
+  </div>
 
 <script src="LightSlider.js"></script>
-  </body>
-  </html>
+</body>
+</html>
